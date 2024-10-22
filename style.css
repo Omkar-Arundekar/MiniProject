@@ -44,7 +44,7 @@ header .logo {
 .hero1 , .hero2 
 {
     display: flex;
-    background-color: #09de25;
+    /* background-color: #09de25; */
     height: 300px;
     justify-content: space-evenly;
 }
@@ -53,10 +53,18 @@ header .logo {
     /* display: flex; */
     margin: 20px;
     width: 100%;
-    background-color: pink;
+    /* background-color: pink; */
     flex-wrap :wrap;
     border-radius: 20px;
     justify-content: space-evenly;
+}
+.content1 img , .content2 img,.content3 img,.content4 img
+{
+    width : 700px;
+    height : 260px;
+    border-radius: 20px;
+    object-fit: cover;
+    border: 4px solid orange;
 }
 nav ul {
     list-style: none;
