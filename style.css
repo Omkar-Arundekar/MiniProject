@@ -21,9 +21,39 @@ header {
 header .logo {
     width: 100px;
     border-radius: 50px;
+    display: flex;
 }
-
-
+.logo h1 
+{
+    margin-left: 10px;
+}
+.home
+{
+    margin: 20px;
+    border-radius: 20px;
+    background-color: aqua;
+}
+.home button
+{
+    border-radius: 20px;
+}
+.hero1 , .hero2 
+{
+    display: flex;
+    background-color: #09de25;
+    height: 300px;
+    justify-content: space-evenly;
+}
+.content1 , .content2 , .content3, .content4
+{
+    /* display: flex; */
+    margin: 20px;
+    width: 100%;
+    background-color: pink;
+    flex-wrap :wrap;
+    border-radius: 20px;
+    justify-content: space-evenly;
+}
 nav ul {
     list-style: none;
     padding: 0;
@@ -37,7 +67,6 @@ nav ul li {
 nav ul li a {
     color: #fff;
     text-decoration: none;
-    font-size: 22px;
 }
 
 section {
