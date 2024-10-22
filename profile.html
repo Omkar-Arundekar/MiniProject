@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile - SEVA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://e7.pngegg.com/pngimages/508/317/png-clipart-volunteering-community-computer-icons-heart-volunteers-volunteering-community-thumbnail.png" alt="Logo" class="logo">
+            <h1>&nbsp;&nbsp;&nbsp;&nbsp;SEVA</h1>
+        </div>
+        <div class="navbar">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="event.html">Events</a></li>
+                    <li><a href="volunteering.html">Volunteer</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="helpdesk.html">Helpdesk</a></li>
+                    <li><a href="profile.html" class="active">Profile</a></li>
+                    <li><a href="sign.html">Sign In</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="profile">
+        <h2>User Profile</h2>
+        <div class="profile-container">
+            <div class="profile-details">
+                <img src="images/user.png" alt="User Photo" class="profile-img">
+                <h3>John Doe</h3>
+                <p><strong>Email:</strong> johndoe@example.com</p>
+                <p><strong>Phone:</strong> +1-234-567-890</p>
+                <p><strong>Joined:</strong> January 2023</p>
+            </div>
+
+            <div class="profile-actions">
+                <h3>Edit Profile</h3>
+                <form action="update_profile.php" method="POST">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" value="John Doe" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" value="johndoe@example.com" required>
+                    
+                    <label for="phone">Phone Number:</label>
+                    <input type="text" id="phone" name="phone" value="+1-234-567-890" required>
+
+                    <button type="submit">Save Changes</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 SEVA Volunteering Community. All rights reserved.</p>
+    </footer>
+</body>
+</html>
